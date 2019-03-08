@@ -43,8 +43,8 @@ def turn(board)
     while user_input != (1..9)
     user_input = 0 
     puts "Please enter 1-9"
-  
   end
+end
     display_board(board)
 end
     
