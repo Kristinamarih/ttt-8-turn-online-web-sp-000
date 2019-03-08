@@ -40,6 +40,7 @@ def turn(board)
     else 
     return "Please enter 1-9:"
     
+    user_input =0
     while user_input != (1..9)
     user_input = 0 
     puts "Please enter 1-9"
