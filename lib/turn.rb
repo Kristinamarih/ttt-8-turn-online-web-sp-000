@@ -44,10 +44,10 @@ def turn(board)
 while user_input = gets.chomp
   case user_input
   when (1..9)
-    puts move(board, index)
-    break # make sure to break so you don't ask again
+    move(board, index)
+    break
   else
-    puts "Please enter 1-9:"
+    turn(board)
     print "Please enter 1-9:"
   end
 end
