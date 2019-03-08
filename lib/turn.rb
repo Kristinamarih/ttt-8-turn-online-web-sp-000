@@ -38,7 +38,7 @@ def turn(board)
    move(board, index)
     turn(board)
   else 
-    return "Please enter 1-9"
+    return "Please enter 1-9:"
     
   end
     display_board(board)
