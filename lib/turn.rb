@@ -38,6 +38,8 @@ def turn(board)
    move(board, index)
     turn(board)
     while user_input != (1..9)
+    user_input = 0 
+    puts 
   else 
     return "Please enter 1-9:"
     
