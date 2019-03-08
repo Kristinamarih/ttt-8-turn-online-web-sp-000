@@ -37,7 +37,7 @@ def turn(board)
   if index == valid_move?(board, index)
    move(board, index)
     turn(board)
-    while user_input 
+    while user_input != (1..9)
   else 
     return "Please enter 1-9:"
     
