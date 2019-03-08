@@ -41,14 +41,6 @@ def turn(board)
     return "Please enter 1-9:"
     
     
-    while user_input != (1..9)
-    user_input = 0 
-    puts "Please enter 1-9"
-  end
-end
-    display_board(board)
-end
-
 while user_input = gets.chomp
   case user_input
   when (1..9)
