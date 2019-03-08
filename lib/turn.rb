@@ -36,28 +36,13 @@ def turn(board)
   index = input_to_index(user_input)
   if valid_move?(board, index)
     move(board, index)
+    turn(board)
   else
     board(turn)
   end
 end
   
-   move(board, index)
-    turn(board)
-    else 
-    return "Please enter 1-9:"
-    
-    
-while user_input = gets.chomp
-  case user_input
-  when (1..9)
-    move(board, index)
-    break
-  else
-    turn(board)
-    print "Please enter 1-9:"
-  end
-  end
-end
+
     
 
  
