@@ -41,3 +41,29 @@ def turn(board)
   end
 end
   
+   move(board, index)
+    turn(board)
+    else 
+    return "Please enter 1-9:"
+    
+    
+while user_input = gets.chomp
+  case user_input
+  when (1..9)
+    move(board, index)
+    break
+  else
+    turn(board)
+    print "Please enter 1-9:"
+  end
+  end
+end
+    
+
+ 
+
+
+
+
+
+  
