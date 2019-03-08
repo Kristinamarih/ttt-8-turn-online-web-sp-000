@@ -50,6 +50,7 @@ while user_input = gets.chomp
     turn(board)
     print "Please enter 1-9:"
   end
+  end
 end
     
 
